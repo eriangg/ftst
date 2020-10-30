@@ -5,7 +5,7 @@ import datetime
 
 @application.route("/")
 def hello():
-    return "Hejsan Världen from %s at %s!\n" % (socket.gethostname(), str(datetime.datetime.now()))
+    return "Hejsan Världen from %s at %s!!!\n" % (socket.gethostname(), str(datetime.datetime.now()))
 
 if __name__ == "__main__":
     application.run()
